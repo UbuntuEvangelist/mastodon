@@ -67,16 +67,16 @@ group :development, :test do
   gem 'pry-rails'
   gem 'fuubar'
   gem 'fabrication'
-  gem 'i18n-tasks', '~> 0.9.6'
+  gem 'i18n-tasks', '~> 0.9.13'
 end
 
 group :test do
   gem 'capybara'
   gem 'faker'
-  gem 'microformats2'
+  gem 'microformats2', '>= 2.1.0'
   gem 'rails-controller-testing'
   gem 'rspec-sidekiq'
-  gem 'simplecov', require: false
+  gem 'simplecov', '>= 0.14.1', require: false
   gem 'webmock'
 end
 
