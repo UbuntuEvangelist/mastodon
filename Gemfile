@@ -20,7 +20,7 @@ gem 'font-awesome-rails'
 gem 'best_in_place', '~> 3.0.1'
 
 gem 'paperclip', '~> 5.1'
-gem 'paperclip-av-transcoder'
+gem 'paperclip-av-transcoder', '>= 0.6.4'
 gem 'aws-sdk', '>= 2.0'
 
 gem 'addressable'
