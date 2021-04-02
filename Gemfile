@@ -98,6 +98,6 @@ end
 
 group :production do
   gem 'rails_12factor'
-  gem 'redis-rails'
+  gem 'redis-rails', '>= 5.0.2'
   gem 'lograge'
 end
