@@ -23,7 +23,7 @@
     "bufferutil": "^2.0.1",
     "chai": "^3.5.0",
     "chai-enzyme": "^0.6.1",
-    "css-loader": "^0.26.2",
+    "css-loader": "^1.0.0",
     "dotenv": "^4.0.0",
     "emojione": "^2.2.7",
     "emojione-picker": "^2.0.1",
