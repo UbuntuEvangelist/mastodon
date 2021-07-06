@@ -1,0 +1,35 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2021-07-06T00:56:11.392Z'
+  'npm:extend:20180424':
+    - fsevents > node-pre-gyp > request > extend:
+        patched: '2021-07-06T00:56:11.392Z'
+  'npm:hoek:20180212':
+    - fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-07-06T00:56:11.392Z'
+    - fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-07-06T00:56:11.392Z'
+    - fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-07-06T00:56:11.392Z'
+    - fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-07-06T00:56:11.392Z'
+  'npm:ms:20170412':
+    - fsevents > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2021-07-06T00:56:11.392Z'
+  'npm:qs:20170213':
+    - fsevents > node-pre-gyp > request > qs:
+        patched: '2021-07-06T00:56:11.392Z'
+  'npm:stringstream:20180511':
+    - fsevents > node-pre-gyp > request > stringstream:
+        patched: '2021-07-06T00:56:11.392Z'
+  'npm:tough-cookie:20170905':
+    - fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2021-07-06T00:56:11.392Z'
+  'npm:tunnel-agent:20170305':
+    - fsevents > node-pre-gyp > request > tunnel-agent:
+        patched: '2021-07-06T00:56:11.392Z'
