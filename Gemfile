@@ -23,22 +23,22 @@ gem 'paperclip', '~> 5.1'
 gem 'paperclip-av-transcoder'
 gem 'aws-sdk', '>= 2.0'
 
-gem 'addressable'
+gem 'addressable', '>= 2.8.0'
 gem 'devise'
 gem 'devise-two-factor'
 gem 'doorkeeper'
 gem 'fast_blank'
-gem 'goldfinger'
+gem 'goldfinger', '>= 1.1.2'
 gem 'hiredis'
 gem 'htmlentities'
-gem 'http'
+gem 'http', '>= 2.2.1'
 gem 'http_accept_language'
 gem 'httplog'
 gem 'kaminari'
 gem 'link_header'
 gem 'nokogiri'
 gem 'oj'
-gem 'ostatus2'
+gem 'ostatus2', '>= 1.0.2'
 gem 'ox'
 gem 'rabl'
 gem 'rack-attack'
@@ -59,7 +59,7 @@ gem 'twitter-text'
 gem 'tzinfo-data'
 
 gem 'react-rails'
-gem 'browserify-rails'
+gem 'browserify-rails', '>= 4.1.0'
 gem 'autoprefixer-rails'
 
 group :development, :test do
@@ -71,21 +71,21 @@ group :development, :test do
 end
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '>= 2.13.0'
   gem 'faker'
   gem 'microformats2'
   gem 'rails-controller-testing'
   gem 'rspec-sidekiq'
   gem 'simplecov', require: false
-  gem 'webmock'
+  gem 'webmock', '>= 2.3.2'
 end
 
 group :development do
   gem 'rubocop', require: false
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'letter_opener'
-  gem 'letter_opener_web'
+  gem 'letter_opener', '>= 1.4.1'
+  gem 'letter_opener_web', '>= 1.3.1'
   gem 'bullet'
   gem 'active_record_query_trace'
 
